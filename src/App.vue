@@ -1,10 +1,9 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" /> 
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <ContactsView></ContactsView>
 </template>
 
 <script setup>
-import HelloWorld from './components/HelloWorld.vue';
+import ContactsView from "./components/ContactsView.vue"
 </script>
 
 <style>
